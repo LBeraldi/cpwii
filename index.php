@@ -50,7 +50,7 @@
         }
     }
 
-   /* if(isset($_POST['remover'])) {
+   if(isset($_POST['remover'])) {
         $remover = $_POST['remover'];
         $sqlremover = "DELETE FROM cliente WHERE id = $remover";
         
@@ -59,7 +59,7 @@
         }else{
             echo'<p>Falha ao remover cliente do BD.</p>';  
         }
-    }*/
+    }
 
 
 
